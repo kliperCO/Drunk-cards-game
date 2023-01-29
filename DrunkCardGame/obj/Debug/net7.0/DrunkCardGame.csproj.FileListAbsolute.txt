@@ -1,0 +1,15 @@
+/Users/andreyefimik/Projects/DrunkCardGame/DrunkCardGame/bin/Debug/net7.0/DrunkCardGame
+/Users/andreyefimik/Projects/DrunkCardGame/DrunkCardGame/bin/Debug/net7.0/DrunkCardGame.deps.json
+/Users/andreyefimik/Projects/DrunkCardGame/DrunkCardGame/bin/Debug/net7.0/DrunkCardGame.runtimeconfig.json
+/Users/andreyefimik/Projects/DrunkCardGame/DrunkCardGame/bin/Debug/net7.0/DrunkCardGame.dll
+/Users/andreyefimik/Projects/DrunkCardGame/DrunkCardGame/bin/Debug/net7.0/DrunkCardGame.pdb
+/Users/andreyefimik/Projects/DrunkCardGame/DrunkCardGame/obj/Debug/net7.0/DrunkCardGame.csproj.AssemblyReference.cache
+/Users/andreyefimik/Projects/DrunkCardGame/DrunkCardGame/obj/Debug/net7.0/DrunkCardGame.GeneratedMSBuildEditorConfig.editorconfig
+/Users/andreyefimik/Projects/DrunkCardGame/DrunkCardGame/obj/Debug/net7.0/DrunkCardGame.AssemblyInfoInputs.cache
+/Users/andreyefimik/Projects/DrunkCardGame/DrunkCardGame/obj/Debug/net7.0/DrunkCardGame.AssemblyInfo.cs
+/Users/andreyefimik/Projects/DrunkCardGame/DrunkCardGame/obj/Debug/net7.0/DrunkCardGame.csproj.CoreCompileInputs.cache
+/Users/andreyefimik/Projects/DrunkCardGame/DrunkCardGame/obj/Debug/net7.0/DrunkCardGame.dll
+/Users/andreyefimik/Projects/DrunkCardGame/DrunkCardGame/obj/Debug/net7.0/refint/DrunkCardGame.dll
+/Users/andreyefimik/Projects/DrunkCardGame/DrunkCardGame/obj/Debug/net7.0/DrunkCardGame.pdb
+/Users/andreyefimik/Projects/DrunkCardGame/DrunkCardGame/obj/Debug/net7.0/DrunkCardGame.genruntimeconfig.cache
+/Users/andreyefimik/Projects/DrunkCardGame/DrunkCardGame/obj/Debug/net7.0/ref/DrunkCardGame.dll
