@@ -35,6 +35,15 @@ namespace DrunkCardGame
                 name = value;
             }
         }
+
+        internal void Memory(Player p, string way, int numOfCards)
+        {
+            StreamWriter str = new StreamWriter(way);
+            for (int i = 0; i < numOfCards; i++)
+            {
+                str.WriteLine($"{i+1}){p.Cards[i]}");
+            }
+            str.Close();
+        }
     }
 }
-
