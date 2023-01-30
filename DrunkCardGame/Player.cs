@@ -4,7 +4,8 @@ namespace DrunkCardGame
     public class Player
     {
         private string? name;
-        private string[] cards;
+        private List<string> cards = new List<string>();
+        //private string[] cards;
         public Player()
         {
             Console.WriteLine("What is my name, My Majesty?");
@@ -12,7 +13,7 @@ namespace DrunkCardGame
             name = Console.ReadLine();
         }
 
-        public string[] Cards
+        public List<string> Cards
         {
             get
             {
@@ -36,14 +37,37 @@ namespace DrunkCardGame
             }
         }
 
-        internal void Memory(Player p, string way, int numOfCards)
+        internal void Memory(string way)
         {
             StreamWriter str = new StreamWriter(way);
-            for (int i = 0; i < numOfCards; i++)
+            for (int i = 0; i < Cards.Count; i++)
             {
-                str.WriteLine($"{i+1}){p.Cards[i]}");
+                str.WriteLine($"{i+1}){Cards[i]}");
             }
             str.Close();
+        }
+
+        internal static void ImAWinner(Player p1, Player p2)
+        {
+            if (p1.Cards.Count == 0 && p2.Cards.Count == 0)
+            {
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine("DRAW");
+                Console.ResetColor();
+            }
+            else if(p1.Cards.Count == 0)
+            {
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine($"{p2.Name} WIN!");
+                Console.ResetColor();
+            }
+            else
+            {
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine($"{p1.Name} WIN!");
+                Console.ResetColor();
+            }
+            
         }
     }
 }

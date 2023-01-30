@@ -8,20 +8,15 @@ namespace DrunkCardGame
         static private string suit;
         static private List<string> noCardsRepeat = new List<string>();
    
-        public static string[] PickSomeCards(int numOfCards)
+        public static List<string> PickSomeCards(int numOfCards)
         {
-            string[] pickedCards = new string[numOfCards];
+            List<string> pickedCards = new List<string>();
             for (int i = 0; i < numOfCards; i++)
             {
-                pickedCards[i] = CheckCards();
+                pickedCards.Add(CheckCards());
             }
             return pickedCards;
         }
-
-        //private static string RandomCards()
-        //{
-
-        //}
 
         private static string RandomValue()
         {
@@ -42,7 +37,7 @@ namespace DrunkCardGame
             return "Diamonds♦";
         }
 
-        private static string CheckCards()
+        public static string CheckCards()
         {
             string text = RandomValue() + " of " + RandomSuit();
             int size = noCardsRepeat.Count;
